@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link rel="icon" type=image/ico href="image/icon.ico">
+    <script type="text/javascript" src="index.js"></script>
+  <title>Kin Rai Dee</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Kin Rai Dee</h1>
+  <h3>Don't know what to eat? Kin Rai Dee will help you.</h3>
+</div>
+
+<div class="main">
+    <form onsubmit="return addMenu()" class="form">
+      Enter menu: <input type="text" id="menu">
+      <input type="submit" value="Submit" id="submit-btn">
+    </form>
+    <h4 id="message">Click Random to random menu</h4>
+    <button onclick="menuGen()" id="random-btn">Random</button>
+    <h4 id="generated"></h4>
+</div>
+
+<div class="footer">
+  <span> <a href="https://github.com/endowp/Kin-Rai-Dee-web-version" target="_blank"> visit Kin Rai Dee (website version) at github<a></span>
+</div>
+
+</body>
+</html>
